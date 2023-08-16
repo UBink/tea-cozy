@@ -5,6 +5,7 @@
     background-color: black;
     opacity: 0.9;
     font-weight: bold;
+    
 }
 header {
     display: flex;
@@ -28,6 +29,7 @@ header {
     align-items: flex-end;
     justify-content: space-between;
     padding-right: 10px;
+    font-size: auto;
 }
 
 #missionsec {
@@ -84,13 +86,14 @@ figcaption {
     top: 200px;
     background-image: url(https://content.codecademy.com/courses/freelance-1/unit-4/img-locations-background.jpg?_gl=1*j9tmu5*_ga*MTgxNTYyODQ0Ny4xNjkxOTY2NjM1*_ga_3LRZM6TM9L*MTY5MjE0MzQ3Ni41LjEuMTY5MjE0NDU3OC42MC4wLjA.);
     height: 500px;
-    width: 1200px;
+    width: 80%;
     margin:auto;
     align-items: center;
    display: flex;
    align-items: center;
    flex-wrap: wrap;
    justify-content: space-around;
+
 }
 .location-head {
         position: static;
