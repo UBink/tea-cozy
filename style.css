@@ -1,6 +1,6 @@
 * {
     font-family: Arial, Helvetica, sans-serif;
-    font-size: 22px;
+    
     color: seashell;
     background-color: black;
     opacity: 0.9;
@@ -29,7 +29,7 @@ header {
     align-items: flex-end;
     justify-content: space-between;
     padding-right: 10px;
-    font-size: auto;
+  
 }
 
 #missionsec {
@@ -45,6 +45,7 @@ header {
     top: 100px;
     background-repeat: no-repeat;
     background-position: center;
+    font-size: 22px;
 
     
 }
@@ -60,6 +61,7 @@ header {
     position: relative;
     text-align: center;
     top: 150px;
+    font-size: 22px;
 }
 #teaofthemonth{
     width: 100%;
@@ -70,6 +72,7 @@ header {
     position: relative;
     align-items: center;
     top: 150px;
+    font-size: 22px;
 }
 
 .box img{
@@ -86,7 +89,6 @@ figcaption {
     top: 200px;
     background-image: url(https://content.codecademy.com/courses/freelance-1/unit-4/img-locations-background.jpg?_gl=1*j9tmu5*_ga*MTgxNTYyODQ0Ny4xNjkxOTY2NjM1*_ga_3LRZM6TM9L*MTY5MjE0MzQ3Ni41LjEuMTY5MjE0NDU3OC42MC4wLjA.);
     height: 500px;
-
     margin:auto;
     align-items: center;
    display: flex;
@@ -94,6 +96,7 @@ figcaption {
    flex-wrap: wrap;
    justify-content: space-around;
    background-size: 100%;
+   font-size: 22px;
 
 }
 .location-head {
@@ -118,6 +121,9 @@ footer {
     margin-top: 220px;
     text-align: center;
     margin-bottom: 50px;
+    font-size: 22px;
+    display: flex;
+    flex-direction: column;
 }
 #copyright {
     margin-left: 20px;
