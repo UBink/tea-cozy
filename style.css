@@ -10,7 +10,7 @@
 header {
     display: flex;
     justify-content: space-between;
-    height: 69px;
+    height: fit-content;
     border-bottom: 1px solid seashell;
     position: fixed;
     width: 100%;
@@ -31,7 +31,23 @@ header {
     padding-right: 10px;
   
 }
-
+@media only screen (max-width: 500px) {
+    .logo {
+        padding: 10px;
+        height: 49px;
+        align-items: flex-start;
+        border-bottom: 1px solid seashell;
+        }
+    .nav p {
+        display: inline-flex;
+        text-decoration: underline;
+        align-items: flex-end;
+        justify-content: space-between;
+        padding-right: 10px;
+        size: 10px;
+    }  
+    
+}
 #missionsec {
     position: relative;
     background-image: url(https://content.codecademy.com/courses/freelance-1/unit-4/img-mission-background.jpg?_gl=1*moai2q*_ga*MTgxNTYyODQ0Ny4xNjkxOTY2NjM1*_ga_3LRZM6TM9L*MTY5MjEzMzA2OC4zLjEuMTY5MjEzNDIxOS41OS4wLjA.);
@@ -97,6 +113,7 @@ figcaption {
    justify-content: space-around;
    background-size: 100%;
    font-size: 22px;
+   height: fit-content;
 
 }
 .location-head {
